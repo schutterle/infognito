@@ -1,0 +1,271 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color:#8F8F8F;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #191970;
+  color:#FFFFFF;
+}
+
+.white-section {
+  background-color:#FFFFFF;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image{
+  width:80%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:15%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+  color: #191970;
+}
+.feature-box {
+  padding: 3%;
+}
+
+.icon {
+  color:#191970;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:#0000CD;
+}
+
+/* Pitch Section */
+
+#pitch {
+  background-color: #4169E1;
+}
+
+.flow-title{
+  color:#FFFFFF;
+  margin-bottom:5%;
+}
+
+.pitch-text {
+  color: #FFFFFF;
+  width: 80%;
+  margin:auto 5%;
+  text-align: left;
+}
+
+.pitch-cta{
+  width: 70%;
+  margin: auto;
+}
+
+.rgpd-img{
+  float:left;
+  width: 17%;
+  margin-right: 5%;
+}
+
+.shield-img{
+  float:left;
+  color: white;
+  margin-right: 6%;
+  margin-top: 3%;
+}
+
+.infognito-img{
+  float:left;
+  color: #FFFFFF;
+  margin-right: 9%;
+  margin-top: 3%;
+}
+
+/* flowchart */
+
+.flow-title{
+  color:#191970;
+  margin-bottom:5%;
+}
+.flow-user {
+  margin-right: 5%;
+}
+
+.flow-arrow {
+  margin-left: 5%;
+  margin-top:300%;
+  color: red;
+}
+
+.flow-incognito{
+  color: red;
+  margin-left: 5%
+}
+
+.flow-msg {
+  color: red;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+/* Benefits */
+
+#benefits {
+  background-color: #4169E1;
+  color: #191970;
+}
+
+.benefits {
+  color: #FFFFFF;
+  margin-bottom:5%;
+}
+
+.benefits-text-title {
+  color: #FFFFFF;
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.benefits-text {
+  color: #FFFFFF;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #FFFFFF;
+  color: #191970;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+#press{
+  background-color: #4169E1;
+  padding: 3% 0 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding:100px;
+}
+
+.price-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#footer{
+}
+
+.social-ntw-icons{
+  margin: 20px 10px;
+}
+
+@media (max-width: 980px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
