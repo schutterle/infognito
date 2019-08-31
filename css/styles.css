@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Montserrat";
   text-align: center;
 }
@@ -9,46 +9,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color:#8F8F8F;
+  color: #8F8F8F;
 }
 
 /* Headings */
-
-.big-heading{
+.big-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-.section-heading{
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
 /* Containers */
-
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
 
 /* Sections */
-
 .colored-section {
   background-color: #191970;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 .white-section {
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
 }
 
-
 /* Navigation bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
   font-family: Ubuntu;
   font-size: 2.5rem;
@@ -66,109 +62,106 @@ p {
 }
 
 /* Download Buttons */
-
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title section */
-
-#title .container-fluid{
+#title .container-fluid {
   padding: 3% 15% 7%;
   text-align: left;
 }
 
 /* Title Image */
-
-.title-image{
-  width:80%;
+.title-image {
+  width: 80%;
   transform: rotate(25deg);
   position: absolute;
-  right:15%;
+  right: 15%;
 }
 
 /* Features Section */
-
 #features {
   position: relative;
 }
-.feature-title{
+
+.feature-title {
   font-size: 1.5rem;
   color: #191970;
 }
+
 .feature-box {
   padding: 3%;
 }
 
 .icon {
-  color:#191970;
+  color: #191970;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color:#0000CD;
+  color: #0000CD;
 }
 
 /* Pitch Section */
-
 #pitch {
   background-color: #4169E1;
 }
 
-.flow-title{
-  color:#FFFFFF;
-  margin-bottom:5%;
+.flow-title {
+  color: #FFFFFF;
+  margin-bottom: 5%;
 }
 
 .pitch-text {
   color: #FFFFFF;
   width: 80%;
-  margin:auto 5%;
+  margin: auto 5%;
   text-align: left;
 }
 
-.pitch-cta{
+.pitch-cta {
   width: 70%;
   margin: auto;
 }
 
-.rgpd-img{
-  float:left;
-  width: 17%;
+.rgpd-img {
+  float: left;
+  width: 90%;
   margin-right: 5%;
 }
 
-.shield-img{
-  float:left;
+.shield-img {
+  float: left;
   color: white;
-  margin-right: 6%;
+  margin-right: 5%;
   margin-top: 3%;
 }
 
-.infognito-img{
-  float:left;
+.infognito-img {
+  float: left;
   color: #FFFFFF;
-  margin-right: 9%;
+  margin-right: 5%;
   margin-top: 3%;
 }
 
 /* flowchart */
-
-.flow-title{
-  color:#191970;
-  margin-bottom:5%;
+.flow-title {
+  color: #191970;
+  margin-bottom: 5%;
 }
+
 .flow-user {
   margin-right: 5%;
 }
 
 .flow-arrow {
   margin-left: 5%;
-  margin-top:300%;
+  margin-top: 300%;
   color: red;
 }
 
-.flow-incognito{
+.flow-incognito {
   color: red;
   margin-left: 5%
 }
@@ -180,7 +173,6 @@ p {
 }
 
 /* Benefits */
-
 #benefits {
   background-color: #4169E1;
   color: #191970;
@@ -188,7 +180,7 @@ p {
 
 .benefits {
   color: #FFFFFF;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
 .benefits-text-title {
@@ -205,13 +197,12 @@ p {
 }
 
 /* Testimonial Section */
-
 #testimonials {
   background-color: #FFFFFF;
   color: #191970;
 }
 
-.testimonial-text{
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -226,46 +217,158 @@ p {
   filter: invert(100%);
 }
 
-#press{
+#press {
   background-color: #4169E1;
   padding: 3% 0 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
-
 #pricing {
-  padding:100px;
+  padding: 100px;
 }
 
-.price-text{
+.price-text {
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 
-#footer{
+#resources{
+  padding: 5%;
+  color:#191970;
+  text-align: left;
+  text-decoration: none;
 }
 
-.social-ntw-icons{
+.ResourcesList{
+  color: #8F8F8F;
+}
+
+.ResourcesList:hover {
+  color: #0000CD;
+}
+
+.ResourcesList:visited {
+  color: #191970;
+}
+
+#footer {}
+
+.social-ntw-icons {
   margin: 20px 10px;
 }
 
-@media (max-width: 980px){
-
-  #title{
+@media (max-width: 980px) {
+  #title {
     text-align: center;
   }
 
-  .title-image{
+  .title-image {
     position: static;
     transform: rotate(0);
   }
 }
+
+/* Application */
+/* Title section */
+#AppBar .navbar {
+  padding: 0;
+  text-align: left;
+}
+
+#AppBar .navbar-brand {
+  padding-left: 5%;
+  text-align: left;
+}
+
+/* Liste-annonceurs */
+.custab {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+.custab:hover {
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
+
+.pull-right {
+  margin: 2%;
+}
+
+/* Mes données */
+.custo {
+  margin: 5%;
+}
+
+nav>.nav.nav-tabs {
+  border: none;
+  color: #fff;
+  background: #191970;
+  border-radius: 0;
+}
+
+nav>div a.nav-item.nav-link,
+nav>div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color: #fff;
+  background: #191970;
+  border-radius: 0;
+}
+
+nav>div a.nav-item.nav-link.active:after {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #191970;
+}
+
+.tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #191970;
+  border-bottom: 5px solid #191970;
+  padding: 30px 25px;
+}
+
+nav>div a.nav-item.nav-link:hover,
+nav>div a.nav-item.nav-link:focus {
+  border: none;
+  background: #4169E1;
+  color: #fff;
+  border-radius: 0;
+  transition: background 0.20s linear;
+}
+
+/* Onglet Suivi */
+
+.suivi {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  text-align: right;
+}
+
+.switchToggle input[type=checkbox]{height: 0; width: 0; visibility: hidden; position: absolute; }
+.switchToggle label {cursor: pointer; text-indent: -9999px; width: 90px; max-width: 90px; height: 30px; background: #d1d1d1; display: block; border-radius: 100px; position: relative; }
+.switchToggle label:after {content: ''; position: absolute; top: 2px; left: 2px; width: 26px; height: 26px; background: #fff; border-radius: 90px; transition: 0.3s; }
+.switchToggle input:checked + label, .switchToggle input:checked + input + label  {background: #3e98d3; }
+.switchToggle input + label:before, .switchToggle input + input + label:before {content: 'Non'; position: absolute; top: 5px; left: 35px; width: 26px; height: 26px; border-radius: 90px; transition: 0.3s; text-indent: 0; color: #fff; }
+.switchToggle input:checked + label:before, .switchToggle input:checked + input + label:before {content: 'Oui'; position: absolute; top: 5px; left: 10px; width: 26px; height: 26px; border-radius: 90px; transition: 0.3s; text-indent: 0; color: #fff; }
+.switchToggle input:checked + label:after, .switchToggle input:checked + input + label:after {left: calc(100% - 2px); transform: translateX(-100%); }
+.switchToggle label:active:after {width: 60px; }
+.toggle-switchArea { margin: 10px 0 10px 0; }
