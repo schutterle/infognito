@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Infognito - Mes données</title>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Infognito Website - Mes données</title>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/47cff87992.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
+
+  <section id="AppBar" class="colored-section">
+    <div>
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="index.html">infognito</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="mes-offres.html">Mes offres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mes-donnees.html">Mes données</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="liste-annonceurs.html">Annonceurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+  <div class="container custo">
+    <div class="row">
+      <div class="col-lg-12 ">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-identite-tab" data-toggle="tab" href="#nav-identite" role="tab">Identité</a>
+            <a class="nav-item nav-link" id="nav-suivi-tab" data-toggle="tab" href="#nav-suivi" role="tab">Suivi</a>
+            <a class="nav-item nav-link" id="nav-reseaux-tab" data-toggle="tab" href="#nav-reseaux" role="tab">Réseaux Sociaux</a>
+            <a class="nav-item nav-link" id="nav-finances-tab" data-toggle="tab" href="#nav-finances" role="tab">Finances</a>
+            <a class="nav-item nav-link" id="nav-thematiques-tab" data-toggle="tab" href="#nav-thematiques" role="tab">Thématiques</a>
+          </div>
+        </nav>
+
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+          <!-- Onglet Identité -->
+
+          <div class="tab-pane fade show active" id="nav-identite" role="tabpanel">
+            <div class="container">
+
+              <div class="card bg-light">
+                <article class="card-body mx-auto" style="max-width: 800px;">
+                  <h4 class="card-title mt-3 text-center">Informations d'identification et de contact</h4>
+                  <p class="text-center">Ces données ne sont visibles que de vous seul.</p>
+
+                  <form>
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                      </div>
+                      <input name="" class="form-control" placeholder="Prénom" type="text">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                      </div>
+                      <input name="" class="form-control" placeholder="Nom" type="text">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                      </div>
+                      <input name="" class="form-control" placeholder="Adresse email" type="email">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                      </div>
+                      <input name="" class="form-control" placeholder="Numéro de téléphone" type="text">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fas fa-calendar"></i> </span>
+                      </div>
+                      <input type="date" class="form-control" placeholder="Date de naissance">
+                    </div>
+                    <!-- form-group end.// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fas fa-home"></i> </span>
+                      </div>
+                      <input class="form-control" placeholder="Adresse domicile" type="text">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fas fa-home"></i> </span>
+                      </div>
+                      <input class="form-control" placeholder="Code postal" type="password">
+                    </div>
+                    <!-- form-group// -->
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-primary btn-block"> Save </button>
+                    </div>
+                    <!-- form-group// -->
+                  </form>
+                </article>
+              </div> <!-- card.// -->
+
+            </div>
+            <!--container end.//-->
+
+            <br><br>
+
+          </div>
+
+          <!-- Onglet Suivi -->
+
+          <div class="tab-pane fade" id="nav-suivi" role="tabpanel">
+            <div class="container">
+
+              <div class="card bg-light">
+                <article class="card-body mx-auto" style="max-width: 800px;">
+                  <h4 class="card-title mt-3 text-center">Suivi de vos activités sur internet</h4>
+                  <p class="text-center">Ces données ne sont visibles que de vous seul.</p>
+                </article>
+              </div>
+
+              <div class="custo">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="suivi">Géolocalisation</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="switchToggle">
+                      <input type="checkbox" id="switch">
+                      <label for="switch">Toggle</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="suivi">Historique de navigation</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="switchToggle">
+                      <input type="checkbox" id="switch1">
+                      <label for="switch1">Toggle</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="suivi">Favoris</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="switchToggle">
+                      <input type="checkbox" id="switch2">
+                      <label for="switch2">Toggle</label>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              </div>
+              </div>
+
+
+
+              <!-- Onglet Réseaux -->
+
+              <div class="tab-pane fade" id="nav-reseaux" role="tabpanel">
+                <div class="container">
+
+                  <div class="card bg-light">
+                    <article class="card-body mx-auto" style="max-width: 800px;">
+                      <h4 class="card-title mt-3 text-center">Chargement de vos données depuis les réseaux sociaux</h4>
+                      <p class="text-center">Ces données ne sont visibles que de vous seul.</p>
+                    </article>
+                  </div>
+
+                  	<form id="fileUploadForm" action="/" enctype="multipart/form-data">
+                      <fieldset>
+                          <div class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="row">
+                                  <label class="control-label col-md-2 text-right" for="filename"><i class="fab fa-facebook-f social-ntw-icons"></i></label>
+                                  <div class="col-md-10">
+                                      <div class="input-group">
+                                          <input type="hidden" id="filename" name="filename" value="">
+                                          <input type="file" id="uploadedFile" name="uploadedFile" class="form-control form-control-sm" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                          <div class="input-group-btn">
+                                              <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="row">
+                                  <label class="control-label col-md-2 text-right" for="filename"><i class="fab fa-linkedin"></i></label>
+                                  <div class="col-md-10">
+                                      <div class="input-group">
+                                          <input type="hidden" id="filename" name="filename" value="">
+                                          <input type="file" id="uploadedFile" name="uploadedFile" class="form-control form-control-sm" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                          <div class="input-group-btn">
+                                              <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="row">
+                                  <label class="control-label col-md-2 text-right" for="filename"><i class="fab fa-twitter social-ntw-icons"></i></label>
+                                  <div class="col-md-10">
+                                      <div class="input-group">
+                                          <input type="hidden" id="filename" name="filename" value="">
+                                          <input type="file" id="uploadedFile" name="uploadedFile" class="form-control form-control-sm" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                          <div class="input-group-btn">
+                                              <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="row">
+                                  <label class="control-label col-md-2 text-right" for="filename"><i class="fab fa-instagram social-ntw-icons"></i></label>
+                                  <div class="col-md-10">
+                                      <div class="input-group">
+                                          <input type="hidden" id="filename" name="filename" value="">
+                                          <input type="file" id="uploadedFile" name="uploadedFile" class="form-control form-control-sm" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                          <div class="input-group-btn">
+                                              <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+
+
+                </div>
+              </div>
+
+
+              <!-- Onglet Finances -->
+
+              <div class="tab-pane fade" id="nav-finances" role="tabpanel">
+                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
+                ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
+                adipisicing
+                reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+
+              <!-- Onglet Thématiques -->
+
+              <div class="tab-pane fade" id="nav-thematiques" role="tabpanel">
+                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
+                ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
+                adipisicing
+                reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+              </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Infognito - Liste annonceurs</title>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Infognito Website - Annonceurs</title>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/47cff87992.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
+
+  <section id="AppBar" class="colored-section">
+    <div>
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="index.html">infognito</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="mes-offres.html">Mes offres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mes-donnees.html">Mes données</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="liste-annonceurs.html">Annonceurs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+  <div class="container">
+
+    <div class="dropdown">
+      <button class="btn btn-primary btn-xs pull-right dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        + Ajouter un annonceur
+      </button>
+      <form class="dropdown-menu p-4" id="dropdownMenuButton">
+        <div class="form-group">
+          <label for="Nom_Annonceur">Nom Annonceur</label>
+          <input type="text" class="form-control" id="Nom_Annonceur" placeholder="Société ABC">
+        </div>
+        <div class="form-group">
+          <label for="email_Annonceur">email</label>
+          <input type="email" class="form-control" id="email_Annonceur" placeholder="mail@marque.com">
+        </div>
+        <div class="form-group">
+          <label for="email_Annonceur">Site Web</label>
+          <input type="url" class="form-control" id="Site_Web_Annonceur" placeholder="www.marque.com">
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="confidentialite">
+            <label class="form-check-label" for="confidentialite">
+              VISIBLE
+            </label>
+            <br>
+            <input type="radio" class="form-check-input" id="confidentialite">
+            <label class="form-check-label" for="confidentialite">
+              INFOGNITO
+            </label>
+            <br>
+            <input type="radio" class="form-check-input" id="confidentialite">
+            <label class="form-check-label" for="confidentialite">
+              INVISIBLE
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enregistrer</button>
+      </form>
+    </div>
+
+    <div class="row col-md-12 col-md-offset-2 custyle">
+      <table class="table table-striped custab">
+
+        <thead>
+          <tr>
+            <th>Identifiant</th>
+            <th>Nom</th>
+            <th>Type</th>
+            <th class="text-center">Confidentialité de mes données</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>123456</td>
+          <td>NewsCorp</td>
+          <td>Editeur</td>
+          <td class="text-center">
+            <a class='btn btn-outline-success btn-sm' href="#"><i class='fas fa-user-alt'> VISIBLE</i></a>
+            <a class='btn btn-danger btn-sm' href="#"><i class='fas fa-user-secret'> INFOGNITO</i></a>
+            <a class='btn btn-outline-dark btn-sm' href="#"><i class='fas fa-user-slash'> INVISIBLE</i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>234567</td>
+          <td>Mississipi.com</td>
+          <td>Distributeur</td>
+          <td class="text-center">
+            <a class='btn btn-success btn-sm' href="#"><i class='fas fa-user-alt'> VISIBLE</i></a>
+            <a class='btn btn-outline-danger btn-sm' href="#"><i class='fas fa-user-secret'> INFOGNITO</i></a>
+            <a class='btn btn-outline-dark btn-sm' href="#"><i class='fas fa-user-slash'> INVISIBLE</i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>345678</td>
+          <td>Acme Digital</td>
+          <td>Marque</td>
+          <td class="text-center">
+            <a class='btn btn-outline-success btn-sm' href="#"><i class='fas fa-user-alt'> VISIBLE</i></a>
+            <a class='btn btn-danger btn-sm' href="#"><i class='fas fa-user-secret'> INFOGNITO</i></a>
+            <a class='btn btn-outline-dark btn-sm' href="#"><i class='fas fa-user-slash'> INVISIBLE</i></a>
+          </td>
+        </tr>
+        <tr>
+          <td>456789</td>
+          <td>Fragrance & Cie</td>
+          <td>Marque</td>
+          <td class="text-center">
+            <a class='btn btn-outline-success btn-sm' href="#"><i class='fas fa-user-alt'> VISIBLE</i></a>
+            <a class='btn btn-outline-danger btn-sm' href="#"><i class='fas fa-user-secret'> INFOGNITO</i></a>
+            <a class='btn btn-dark btn-sm' href="#"><i class='fas fa-user-slash'> INVISIBLE</i></a>
+          </td>
+        </tr>
+
+</body>
